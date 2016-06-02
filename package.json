@@ -1,15 +1,22 @@
 {
-  "name": "turntable",
-  "version": "1.1.0",
+  "name": "turntable-js",
+  "version": "2.0.0",
   "description": "A responsive jQuery plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolarNotion/turntable"
   },
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery"
   ],
   "author": "Polar Notion",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
 }
